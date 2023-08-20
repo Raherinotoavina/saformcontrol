@@ -21,7 +21,9 @@ The currently available methods are :
 - allLetter
 - toCapitalize
 - toPascalCase
+
 All of these methods take a parameter 'element,' which is the selected input. For the 'maxLength' method, you need to add a second parameter, which represents the input size.
+
 eg :
 ```js
 import { maxLength } from "saformcontrol";
