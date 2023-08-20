@@ -1,0 +1,11 @@
+{
+  "name": "saformcontrol",
+  "version": "1.0.0",
+  "description": "simple form control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ramasama",
+  "license": "ISC"
+}
