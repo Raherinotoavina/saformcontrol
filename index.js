@@ -40,7 +40,28 @@ export const toUpperCase = (el) => {
     });
 };
 
-//5) To PascalCase
+//5) LowerCase an input
+export const toLowerCase = (el) => {
+    el.addEventListener("input", (e) => {
+        e.preventDefault();
+        const selectionStart = el.selectionStart;
+        el.value = el.value.toLowerCase();
+        el.setSelectionRange(selectionStart, selectionStart);
+    });
+};
+
+//6) Capitalize input
+export const toCapitalize = (el) => {
+    el.addEventListener("input", (e) => {
+        e.preventDefault();
+        const selectionStart = el.selectionStart;
+        if (el.value.length > 0 && el.value.length <= 1)
+            el.value = el.value.toUpperCase();
+        el.setSelectionRange(selectionStart, selectionStart);
+    });
+};
+
+//7) To PascalCase
 export const toPascalCase = (el) => {
     el.addEventListener("input", (e) => {
         e.preventDefault();
