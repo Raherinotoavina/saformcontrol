@@ -6,6 +6,10 @@
         "javascript",
         "form control"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Raherinotoavina/saformcontrol"
+    },
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
