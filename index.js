@@ -30,8 +30,8 @@ export const allLetter = (el) => {
     });
 };
 
-//4) Capitalize an input
-export const toCapitalize = (el) => {
+//4) UpperCase an input
+export const toUpperCase = (el) => {
     el.addEventListener("input", (e) => {
         e.preventDefault();
         const selectionStart = el.selectionStart;
